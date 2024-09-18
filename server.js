@@ -16,7 +16,7 @@ app.use(cors());
 
 app.use(express.json()); 
 
-//Signup and login
+
 app.use("/email", emailRoutes);
 
 app.get("/", (req, res) => {
